@@ -342,3 +342,52 @@ nav a:hover {
     transform: translateY(-2px);
 }
 ```
+```css id="c3m8vx"
+/* Professional Projects Section */
+
+#projects {
+    margin-top: 40px;
+    padding: 30px 25px;
+    background-color: #172033;
+    border: 1px solid #334155;
+    border-radius: 15px;
+}
+
+#projects h3 {
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+.project-card {
+    background-color: #0f172a;
+    padding: 25px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.15);
+}
+
+.project-card h4 {
+    color: #f8fafc;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+.project-card strong {
+    color: #7dd3fc;
+}
+
+.project-card button {
+    margin: 8px 5px 0 0;
+}
+```
